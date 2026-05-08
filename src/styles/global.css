@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --black:      #080808;
+  --white:      #f8f6f2;
+  --off-white:  #ede9e3;
+  --mid:        #888680;
+  --accent:     #c8a96e;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-ui:      'Jost', sans-serif;
+}
+
+html  { scroll-behavior: smooth; }
+body  {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-ui);
+  font-weight: 300;
+  overflow-x: hidden;
+  cursor: crosshair;
+}
+
+/* ── NAV ── */
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  mix-blend-mode: difference;
+}
+.nav-logo, .nav-link {
+  font-family: var(--font-ui);
+  font-weight: 200;
+  font-size: 11px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.nav-logo:hover, .nav-link:hover { opacity: 0.5; }
+
+/* ── PAGE TRANSITION ── */
+.page-enter { animation: pageIn 0.5s ease forwards; }
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
