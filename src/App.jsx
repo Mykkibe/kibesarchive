@@ -4,7 +4,7 @@ import Archive from "./pages/Archive";
 import Lightbox from "./components/Lightbox";
 import "./styles/global.css";
 import "./styles/gallery.css";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   const [page, setPage]         = useState("home");
