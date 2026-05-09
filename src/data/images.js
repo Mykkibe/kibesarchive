@@ -98,7 +98,7 @@ export const HERO_IMAGES = [
 export const IMAGES = [
 
   // ── Portraits ──────────────────────────────────────────────────────────
-  { id: 1,  src: portrait01, category: "Portraits", title: "Test deployed is a success!"},
+  { id: 1,  src: portrait01, category: "Portraits", title: "Love Birds"},
   { id: 2,  src: portrait02, category: "Portraits", title: "Sunflower"},
   { id: 3,  src: portrait03, category: "Portraits", title: "Saturation"},
   { id: 4,  src: portrait04, category: "Portraits", title: "B/W"},
