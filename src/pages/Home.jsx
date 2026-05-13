@@ -8,6 +8,9 @@ const STORIES = [
   { number: "03", category: "Street" },
   { number: "04", category: "Cars" },
   { number: "05", category: "Product" },
+  { number: "06", category: "Wildlife"},
+  { number: "07", category: "Silhouette"},
+  { number: "08", category: "Creative"},
 ];
 
 export default function Home({ navigate, openLightbox }) {
