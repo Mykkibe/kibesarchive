@@ -157,7 +157,7 @@ export const IMAGES = [
 
   // ── Street ─────────────────────────────────────────────────────────────
   { id: 25, src: street01, category: "Street", title: "Street Light"},
-  { id: 48, src: street02, category: "street", title: "Ferris Wheel"},
+  { id: 48, src: street02, category: "Street", title: "Ferris Wheel"},
   // ── products ─────────────────────────────────────────────────────────────
   { id: 26, src: products01, category: "Product", title: "Olevs Watch"},
   { id: 27, src: products04, category: "Product", title: "Olevs Watch"},
