@@ -116,7 +116,8 @@ export const HERO_IMAGES = [
   street01,
   products05,
   wildlife08,
-  wildlife07,
+  wildlife07, 
+  silhouette00,
 ];
 
 // ── Gallery images ────────────────────────────────────────────────────────
@@ -150,17 +151,35 @@ export const IMAGES = [
   { id: 22, src: nature17, category: "Nature", title: "Wild Bottle Gourd Flower"},
   { id: 23, src: nature18, category: "Nature", title: "Nature's Fountain"},
   { id: 24, src: nature19, category: "Nature", title: "Stream"},
-
-
+  { id: 66, src: nature20, category: "Nature", title: "Flower Bud"},
+  { id: 67, src: nature21, category: "Nature", title: "Bed of flowers"},
+  { id: 68, src: nature22, category: "Nature", title: "Flowers"},
 
   // ── Street ─────────────────────────────────────────────────────────────
   { id: 25, src: street01, category: "Street", title: "Street Light"},
+  { id: 48, src: street02, category: "street", title: "Ferris Wheel"},
   // ── products ─────────────────────────────────────────────────────────────
   { id: 26, src: products01, category: "Product", title: "Olevs Watch"},
   { id: 27, src: products04, category: "Product", title: "Olevs Watch"},
   { id: 28, src: products06, category: "Product", title: "Olevs Watch"},
   { id: 29, src: products03, category: "Product", title: "Olevs Watch"},
   { id: 30, src: products10, category: "Product", title: "Olevs Watch"},
+  { id: 49, src: products11, category: "Product", title: "Polaroid camera"},
+  { id: 50, src: products12, category: "Product", title: "Polaroid camera"},
+  { id: 51, src: products13, category: "Product", title: "Branded Headphones"},
+  { id: 52, src: products14, category: "Product", title: "Branded H-phones"},
+  { id: 53, src: products15, category: "Product", title: "Branded H-phones"},
+  { id: 54, src: products16, category: "Product", title: "Gaming Pad"},
+  { id: 55, src: products17, category: "Product", title: "Gaming Pad"},
+  { id: 56, src: products18, category: "Product", title: "bo'o O Wo'er"},
+  { id: 57, src: products19, category: "Product", title: "WristWatch"},
+  { id: 58, src: products20, category: "Product", title: "Versace Jewellery"},
+  { id: 59, src: products21, category: "Product", title: "Versace Jewellery"},
+  { id: 60, src: products22, category: "Product", title: "Versace Jewellery"},
+  { id: 61, src: products23, category: "Product", title: "Versace Jewellery"},
+  { id: 62, src: products24, category: "Product", title: "Keyboard"},
+  { id: 63, src: products25, category: "Product", title: "Keyboard"},
+  { id: 64, src: products26, category: "Product", title: "Keyboard"},
   // ── wildlife ─────────────────────────────────────────────────────────────
   { id: 31, src: wildlife00, category: "Wildlife", title: "African Elephant"},
   { id: 32, src: wildlife01, category: "Wildlife", title: "Male Village Weaver"},
@@ -176,11 +195,12 @@ export const IMAGES = [
   { id: 42, src: wildlife11, category: "Wildlife", title: "Caterpillar"},
   { id: 43, src: wildlife12, category: "Wildlife", title: "Caterpillar"},
   { id: 44, src: wildlife13, category: "Wildlife", title: "MouseBird"},
+  { id: 69, src: wildlife14, category: "Wildlife", title: "Bee on a Flower"},
+  { id: 70, src: wildlife15, category: "Wildlife", title: "Bumble bee on a yellow flower"},
   //---cars---
   { id: 45, src: cars00, category: "Cars", title: "Benz"},
   //---creatives---
-  { id: 46, src: creative01, category: "Creative", title: "Cards and Nails"}
-
-
-
+  { id: 46, src: creative01, category: "Creative", title: "Cards and Nails"},
+  //---Silhouttes--
+  { id: 65, src: silhouette00, category: "Silhouette", title: "Figure Of A man"},
 ];
