@@ -108,7 +108,6 @@ export const photo = (relativePath) =>
 
 // ── Hero slideshow (full-width, high-res) ─────────────────────────────────
 export const HERO_IMAGES = [
-  "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1600&q=90",
   portrait03,
   nature11,
   nature05,

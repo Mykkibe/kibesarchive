@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Gallery from "../components/Gallery";
 import { IMAGES } from "../data/images";
 
-const CATEGORIES = ["All", "Portraits", "Nature", "Street", "Cars", "Product", "Wildlife", "Silhoutte", "Creative"];
+const CATEGORIES = ["All", "Portraits", "Nature", "Street", "Cars", "Product", "Wildlife", "Silhouette", "Creative"];
 const BATCH_SIZE  = 6;
 
 export default function Archive({ navigate, openLightbox }) {
